@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    height: 100vh;
+   
+}
+.center{
+    width: 100%;
+    height: 100%;
+    background-color: AntiqueWhite;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 400px;
+    /* background: rgb(193, 183, 223); */
+    border-radius: 10px;
+    
+}
+.box1{
+    width:50%;
+    height: 400px;
+    
+    float: left;
+    position: relative;
+    background-color:#55a9dd;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.center .box .box1 .img {
+    /* border-style:  groove;
+    width: 87%;
+    height: 80%;
+    position: absolute;
+    margin: auto;
+    overflow: hidden;
+    top:50px;
+    right: 30px; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:70%;
+    height:70%;
+    position: absolute;
+    
+    
+
+}
+.box2{
+    width: 50%;
+    height: 400px;
+    background-color:#ffffff;
+    float: left;
+    
+    align-items: center;
+    justify-content: center;
+}
+.center .box .box2 h4{
+    font-family: 'Moul','khmer os battambang';
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 5px;
+    /* text-indent: 10px;
+    line-height: 3.8; */
+    /* position: relative; */
+    /* background-color: green; */
+}
+.box3{
+    /* border-style:  groove; */
+    width: 100%;
+    height: auto;
+    /* position: absolute; */
+    margin: auto;
+    /* background-color: whitesmoke; */
+    /* overflow: hidden; */
+    /* top:60px;
+    right: 30px; */
+    align-items: center;
+
+}
+.box3 .box-form{
+    width: 90%;
+    height: auto;
+    /* background-color: whitesmoke; */
+    margin: auto;
+    overflow: hidden;
+    padding: 30px 0;
+    /* top: 50px;
+    right: 30px;
+
+    position: relative; */
+       /* background-color:#ffffff; */
+}
+#btn1{
+    padding: 10px 30px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    position: relative;
+    background-color: blue;
+    /* color: white; */
+    transition: .5s;
+    margin-left: 0;
+    margin-top: 40px;
+    display: block;
+}
+.box2 .box3 form input{
+    width: 100%;
+    height:50px;
+    border-style: solid;
+    background-color: none;
+    /* display: block; */
+    /* background-color:#55a9dd; */
+}
+.box2 .box3 form button{
+    color: black;
+}
+
+.box2 .box3 form table input{
+    font-family: 'Hanuman', serif;
+    margin: auto;
+    font-size: 20px;
+   
+}
+.box3 .box-login {
+    width: 30%;
+    height: 50px;
+    background-color: rgb(148, 69, 5);
+    bottom:10px;
+    left: 20px;
+    position: absolute;
+    border-radius: 5px;
+
+}
+.box3 .box-login ul li a{
+    /* color: white; */
+    font-style: 10px;
+    font-family: 'Bayon', sans-serif;
+    text-decoration: none;
+   
+}
+.box .box-login ul li{
+    list-style-type: none;
+}
+.box2 .box3 form button {
+    background-color: aquamarine;
+}

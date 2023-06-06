@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'battambang', cursive;
+}
+.box{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    font-family: 'Angkor', cursive;
+    color: rgb(245, 210, 10);
+    font-size: 40px;
+}
+.form{
+    width: 60%;
+    height: auto;
+    background-color: rgb(87, 116, 172);
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px gray;
+    
+}
+/* label{
+    font-size: 15px;
+    font-family: 'battambang', sans-serif;
+    display: inline-block;
+    width: 40%;
+    color: white;
+
+} */
+input{
+    display: inline-block;
+    width: 100%;
+    outline: unset;
+    border: 1px solid white;
+    padding: 5px 10px;
+    margin: 2.5px 0;
+    font-family: 'battambang', sans-serif;
+    border-radius: 3px;
+
+}
+select{
+   
+    width: 100%;
+    outline: unset;
+    border: 1px solid white;
+    padding: 4.5px 10px;
+    margin: 2px 0;
+    font-family: 'battambang', sans-serif;
+    border-radius: 3px;
+}
+.form .control-form {
+    width: 100%;
+
+
+}
+.form .control-form .inline-form{
+    width: 30%;
+    height: auto;
+    /* background-color: red; */
+    float: left;
+    margin: 3px 5px;
+    margin-left: 15px;
+}
+.form .control-form .inline-forms{
+    width: 100%;
+    height: 40px;
+    /* background-color: red; */
+    float: left;
+     /* margin: 3px 5px; */
+    /* margin-left: 15px;  */
+}
+
+
+
+.form .control-form .inline-form label{
+    font-size: 15px;
+    font-family: 'battambang', sans-serif;
+    display: inline-block;
+    color: white;
+}
+
+.form .control-form .preview{
+    width: 250px;
+    height: 150px;
+    float: left;
+    overflow: hidden;
+    border:4px solid rgb(0, 0, 0);
+    
+}
+
+.form .control-form .preview img{
+    width: 100%;
+    height: 100%;
+    background-image: cover;
+    background-repeat: no-repeat;
+
+    
+}
+.clear-fix{
+    clear: both;
+    float: unset;
+}
+.form .control-form .button {
+    /* width: 100%;
+    justify-content: space-evenly; */
+    margin-left: 15px;
+    margin-top: 20px
+    
+
+}
+.form .control-form .button button{
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    border: unset;
+    border-radius: 3px;
+}
+.form .control-form .button button.right{
+    background-color: darkgreen;
+    color: white;
+}
+.form .control-form .button button.right:hover{
+    background-color: rgb(4, 129, 4);
+
+}
+.form .control-form .button button.left{
+    background-color: darkred;
+    color: white;
+}
+.form .control-form .button button.left:hover{
+    background-color: rgb(167, 1, 1);
+}

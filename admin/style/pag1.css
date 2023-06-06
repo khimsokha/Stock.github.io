@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-header {
+    width: 100%;
+    height: 100px;
+    float: left;
+    background-color: #0c85a3;
+}
+
+.top-header .container-width {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 0 0 30px;
+}
+
+.top-header .container-width .logo {
+    width: 10%;
+    height: 100%;
+    float: left;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+}
+
+.top-header .container-width .logo img {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.top-header .container-width .text {
+    width: 60%;
+    height: 100%;
+    float: left;
+    align-items: center;
+    display: flex;
+}
+
+.top-header .container-width .text h3 {
+    font-family: 'Angkor', cursive;
+    color: #fff;
+    font-size: 25px;
+}
+
+/* .top-header .container-width .textss a {
+    font-family: 'Angkor', cursive;
+    color: #fff;
+} */
+
+.top-header .container-width .profile {
+    width: 30%;
+    height: 100%;
+    float: left;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.top-header .container-width .profile p {
+    color: #fff;
+    font-family: 'Angkor', cursive;
+}
+
+.box ul li a {
+    float: left;
+    list-style-type: none;
+    position: relative;
+}
+
+.box ul li h3 {
+
+    color: white;
+    font-family: 'Angkor', cursive;
+    text-indent: 150px;
+    font-size: 30px;
+    line-height: 3.3;
+
+}
+
+.box ul li a img {
+    border-radius: 20%;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.register {
+    width: 10%;
+    height: 50px;
+    /* background-color: rgb(119, 55, 68);*/
+    top: 10px;
+    left: 1320px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    border-radius: 5%;
+    line-height: 5.3;
+    font-family: 'Bokor', cursive;
+    color: rgb(93, 44, 149);
+    font-size: 20px;
+}
+
+/* fixcontent */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.menu_bar1 {
+    padding-top: 1000px;
+}
+
+.menu_bar1 {
+    width: 100%;
+    float: left;
+    background-color: rgb(3, 59, 105);
+    position: sticky;
+    top: 0;
+
+}
+
+.menu_bar1 ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu_bar1 ul li {
+    padding: 10px 30px;
+    position: relative;
+
+}
+
+.menu_bar1 ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Siemreap', cursive;
+
+    transition: all 0.3s;
+}
+
+.menu_bar1 ul li a:hover {
+    color: crimson;
+}
+
+.dropdown_menu {
+    display: none;
+}
+
+.menu_bar1 ul li:hover .dropdown_menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    /* background-color: #ff0000; */
+    /* background-color: #ed2dd0; */
+    background-color: rgb(3, 59, 105);
+    box-shadow: 1px 2px 5px #000000;
+    /* box-shadow: 0px 0px 5px 1px grey; */
+    z-index: 2;
+}
+
+.dropdown_menu ul {
+    display: block;
+    margin: 10px;
+
+}
+
+.dropdown_menu ul li {
+    width: 200px;
+    padding: 10px;
+
+}
+
+.dropdown_menu ul li a {
+    font-size: 16px;
+
+}
+
+.fas {
+    float: right;
+    margin-left: 10px;
+    padding: 3px;
+}
+
+.menu_bar {
+    display: none;
+}
+
+.menu_bar1 ul li:hover .menu_bar {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #212b38;
+    /* background-color: #ff0000; */
+}
+
+.menu_bar ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu_bar ul li {
+    width: 150px;
+    padding: 10px;
+}
+
+.fas {
+    float: right;
+    margin-left: 10px;
+    padding: 3px;
+}
+
+.menu2 {
+    width: 10%;
+    height: 58px;
+    /*  background-color: white;*/
+    position: absolute;
+    top: 115px;
+    left: 1225px;
+    float: left;
+    margin-top: 10px;
+    margin: 5px;
+    display: flex;
+    text-align: center;
+}
+
+input {
+    /* position: relative; */
+    display: inline-block;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: 2s;
+    /* color: white; */
+}
+
+input[type="text"] {
+    background: whitesmoke;
+    width: 200px;
+    height: 50px;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+input[type="Submit"] {
+    position: relative;
+    /* border-radius: 0 25px 25px 0; */
+    height: 50px;
+    width: 70px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: yellow;
+    left: -2px;
+
+}
+
+input[type="Submit"]:hover {
+    background: black;
+}
+
+input[value="Search"] {
+    color: black;
+}
+
+.dashboard {
+    width: 100%;
+}
+
+.dashboard .top_dashboard {
+    margin-left: 20px;
+    margin-right: 20px;
+    /* margin: 0 20px; */
+    width: auto;
+    height: auto;
+    /* background-color: rgb(9, 179, 20); */
+    font-family: 'Angkor', cursive;
+}
+
+.dashboard .top_dashboard .title {
+    width: 100%;
+    float: right;
+    display: flex;
+    align-items: end;
+    background-color: green;
+
+
+}
+
+.top_dashboard .search-and-title  {
+    width:270px;
+    float: right;
+    align-items: right;
+    /* text-align: right; */
+    /* display: flex;
+    align-items: end; */
+    margin:0px;
+    padding:0 0 0 29px;
+
+    /* background-color: rgb(118, 209, 118); */
+
+
+}
+
+
+/* .dashboard .top_dashboard .title h3{
+} */
+.dashboard .top_dashboard .search_button {
+    width: 100%;
+    text-align: right;
+    font-family: 'Angkor', cursive;
+    background-color: green;
+
+    
+}
+
+/* .dashboard .top_dashboard .search_button .do{
+    float:right;
+    width: auto;
+    height: auto;
+} */
+.dashboard .dasble {
+    width: 100%;
+    height: 510px;
+    /* background-color: rgb(234, 235, 241); */
+    /* background-color: blue; */
+    padding: 0 20px;
+    /* overflow-y: scroll; */
+    z-index: -99999;
+}
+
+.dashboard .dasble::-webkit-scrollbar {
+    display: none;
+}
+
+.add {
+    float: right;
+    background-color: green;
+    margin-bottom: 1rem;
+    padding: 5px 15px;
+    border: none;
+}
+
+.do {
+    float: right;
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+}
+
+.do a {
+    float: right;
+}
+
+.search-and-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'khmer os battambang';
+    color: #000000;
+    padding: 0 0 10px 20px;
+    font-size: 20px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: auto;
+    
+}
+  /*
+tr:nth-child(even) {
+    background-color: #dddddd;
+    } */
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: #ffffff;
+    /* position: sticky;
+    top: 0; */
+    border: 8px solid rgb(0, 0, 0);
+}
+#customers td {
+    z-index: -99;
+}
+
+.container {
+    font-family: 'khmer os battambang';
+    width: 90%;
+    margin: 5rem auto;
+}
+
+.head {
+    color: white;
+    z-index: 89999;
+}
+
+/* .button {
+          padding : .5rem 1 rem;
+          cursor: pointer;
+          border: none;
+          color: white;
+          border-radius: .2rem;
+      } */
+.add {
+    background-color: green;
+    margin-bottom: 1rem;
+    padding: 8px;
+    border: none;
+}
+
+.edit {
+
+    background-color: #0000fe;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.edit :hover {
+
+
+    color: #7751f5;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.delet {
+    background-color: #ff0000;
+    color: #ff0000;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.delet :hover {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.dashboard {
+    padding-top: 100px;
+    /* background-color: gray; */
+}
+
+.control-edit-delete {
+
+    width: 80px;
+}
+
+.control-use-borrow {
+    width: 80px;
+}
+
+#button-take-to-use {
+    color: white;
+    font-size: 60%;
+    text-decoration: none;
+    border: 2px solid rgb(121, 121, 0);
+    background-color: rgb(121, 121, 0);
+    border-radius: 4px;
+    padding: 2px;
+}
+
+#button-take-to-use:hover {
+    color: white(54, 170, 248);
+    
+    text-decoration: none;
+    border: 2px solid rgb(72, 144, 253);
+    background-color: rgb(121, 121, 0);
+    border-radius: 4px;
+    padding: 2px;
+}
+
+#button-borrow {
+    color: white;
+   
+    text-decoration: none;
+    border: 2px solid green;
+    background-color: green;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+#button-borrow:hover {
+    color: white;
+    
+    text-decoration: none;
+    border: 2px solid rgb(72, 144, 253);
+    background-color: green;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+#button-edit {
+
+    color: white;
+   
+    text-decoration: none;
+    border: 2px solid rgb(0, 60, 255);
+    background-color: rgb(0, 60, 255);
+    border-radius: 4px;
+    padding: 2px;
+}
+
+#button-edit:hover {
+    color: white;
+    font-size: 70%;
+    text-decoration: none;
+    border: 2px solid rgb(72, 144, 253);
+    background-color: rgb(0, 60, 255);
+    border-radius: 4px;
+    padding: 2px;
+}
+
+#button-delet {
+
+
+    color: white;
+    font-size: 70%;
+    text-decoration: none;
+    border: 2px solid rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+    border-radius: 4px;
+    padding: 2px;
+}
+
+#button-delet:hover {
+    color: white;
+    font-size: 70%;
+    text-decoration: none;
+    border: 2px solid rgb(72, 144, 253);
+    background-color: rgb(255, 0, 0);
+    border-radius: 4px;
+    padding: 2px;
+}
+
+
+
+/* tb_top_borrow*/
+/* .top_dashboard .do .tb_top_borrow {
+    float:right;
+    font-family:'Time New Roman', khmer os battambang;
+    font-size:88%;
+    line-height: 10px;
+    text-align:center;
+} */
+
+
+
+
+.clear-fix {
+    float: unset;
+    clear: both;
+}
+
+.pagination {
+    list-style-type: none;
+    padding: 10px 0;
+    display: inline-flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.pagination li {
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+.pagination li a {
+    box-sizing: border-box;
+    background-color: #e2e6e6;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #616872;
+    border-radius: 4px;
+}
+
+.pagination li a:hover {
+    background-color: #d4dada;
+}
+
+.pagination .next a,
+.pagination .prev a {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.pagination .currentpage a {
+    background-color: #518acb;
+    color: #fff;
+}
+
+.pagination .currentpage a:hover {
+    background-color: #518acb;
+}
+

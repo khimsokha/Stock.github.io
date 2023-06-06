@@ -1,0 +1,86 @@
+#userList {
+    font-family: 'khmer os battambang';
+    border-collapse: collapse;
+    width: 100%;
+}
+td{
+    text-align: center;
+
+}
+#userList td,
+#userList th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#userList tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#userList tr:hover {
+    background-color: #ddd;
+}
+
+#userList th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: deepskyblue;
+    color: white;
+}
+
+.alltb {
+    float: right;
+    
+    padding: 20px 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+    height: auto;
+    /* background-color: rgb(9, 179, 20); */
+    font-family: 'Angkor', cursive;
+}
+
+.alltb .btn a {
+    background-color: #4CAF50;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    font-family: 'Angkor', cursive;
+
+}
+
+.blltb {
+    padding-top: 200px;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+    height: auto;
+    /* background-color: rgb(9, 179, 20); */
+    font-family: 'Angkor', cursive;
+}
+#bt_edit{
+    color:white;
+    font-size:80%;
+    text-decoration: none;
+    border: 2px solid rgb(121, 121, 0);
+    background-color:rgb(121, 121, 0);
+    border-radius:4px; 
+    padding:2px;
+}
+#bt_delet{
+    color:white;
+    font-size:80%;
+    text-decoration: none;
+    border: 2px solid red;
+    background-color:red;
+    border-radius:4px; 
+    padding:2px;
+}
